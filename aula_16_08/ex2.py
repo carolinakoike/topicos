@@ -8,11 +8,9 @@ res4 = float(input("Digite o valor da resistencia 4: "))
 
 soma = res1 + res2 + res3 + res4
 
-# Identificando a maior e a menor resistência
 maior_resistencia = max(res1, res2, res3, res4)
 menor_resistencia = min(res1, res2, res3, res4)
 
-# Exibindo os resultados
 print(f"A resistência equivalente do circuito é: {soma} ohms")
 print(f"A maior resistência é: {maior_resistencia} ohms")
 print(f"A menor resistência é: {menor_resistencia} ohms")
